@@ -1,0 +1,660 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'nodemon',
+1 verbose cli   '-D' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/package.json
+5 warn package.json TodoApp1@0.0.0 No README.md file found!
+6 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/morgan/package.json
+7 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/mongoose/package.json
+8 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/method-override/package.json
+9 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/express/package.json
+10 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/body-parser/package.json
+11 verbose from cache /home/josuex/Documenti/TEC2/TodoApp1/package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'nodemon', null ]
+14 silly cache add name=undefined spec="nodemon" args=["nodemon",null]
+15 verbose parsed url { pathname: 'nodemon', path: 'nodemon', href: 'nodemon' }
+16 silly lockFile 1625b929-nodemon nodemon
+17 verbose lock nodemon /home/josuex/.npm/1625b929-nodemon.lock
+18 silly lockFile 1625b929-nodemon nodemon
+19 verbose addNamed [ 'nodemon', '' ]
+20 verbose addNamed [ null, '' ]
+21 silly lockFile 4f5e51c6-nodemon nodemon@
+22 verbose lock nodemon@ /home/josuex/.npm/4f5e51c6-nodemon.lock
+23 silly addNameRange { name: 'nodemon', range: '', hasData: false }
+24 verbose url raw nodemon
+25 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+26 verbose url resolved https://registry.npmjs.org/nodemon
+27 info trying registry request attempt 1 at 17:09:06
+28 verbose etag "59ddf067-330eb"
+29 http GET https://registry.npmjs.org/nodemon
+30 http 304 https://registry.npmjs.org/nodemon
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:50 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'cache-control': 'max-age=300',
+31 silly registry.get     etag: '"59ddf067-330eb"',
+31 silly registry.get     age: '123',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-lax8633-LAX',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '2',
+31 silly registry.get     'x-timer': 'S1507784931.667129,VS0,VE0',
+31 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+32 verbose etag nodemon from cache
+33 silly addNameRange number 2 { name: 'nodemon', range: '', hasData: true }
+34 silly addNameRange versions [ 'nodemon',
+34 silly addNameRange   [ '0.1.4',
+34 silly addNameRange     '0.1.5',
+34 silly addNameRange     '0.1.6',
+34 silly addNameRange     '0.1.7',
+34 silly addNameRange     '0.1.8',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.2.2',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.3.1',
+34 silly addNameRange     '0.3.2',
+34 silly addNameRange     '0.4.0',
+34 silly addNameRange     '0.4.1',
+34 silly addNameRange     '0.5.0',
+34 silly addNameRange     '0.5.1',
+34 silly addNameRange     '0.5.2',
+34 silly addNameRange     '0.5.3',
+34 silly addNameRange     '0.5.4',
+34 silly addNameRange     '0.5.5',
+34 silly addNameRange     '0.5.6',
+34 silly addNameRange     '0.5.7',
+34 silly addNameRange     '0.6.0',
+34 silly addNameRange     '0.6.1',
+34 silly addNameRange     '0.6.2',
+34 silly addNameRange     '0.6.3',
+34 silly addNameRange     '0.6.4',
+34 silly addNameRange     '0.6.5',
+34 silly addNameRange     '0.6.6',
+34 silly addNameRange     '0.6.7',
+34 silly addNameRange     '0.6.8',
+34 silly addNameRange     '0.6.9',
+34 silly addNameRange     '0.6.10',
+34 silly addNameRange     '0.6.11',
+34 silly addNameRange     '0.6.12',
+34 silly addNameRange     '0.6.13',
+34 silly addNameRange     '0.6.14',
+34 silly addNameRange     '0.6.15',
+34 silly addNameRange     '0.6.16',
+34 silly addNameRange     '0.6.17',
+34 silly addNameRange     '0.6.18',
+34 silly addNameRange     '0.6.19',
+34 silly addNameRange     '0.6.20',
+34 silly addNameRange     '0.6.21',
+34 silly addNameRange     '0.6.22',
+34 silly addNameRange     '0.6.23',
+34 silly addNameRange     '0.7.0',
+34 silly addNameRange     '0.7.1',
+34 silly addNameRange     '0.7.2',
+34 silly addNameRange     '0.7.3',
+34 silly addNameRange     '0.7.4',
+34 silly addNameRange     '0.7.5',
+34 silly addNameRange     '0.7.6',
+34 silly addNameRange     '0.7.7',
+34 silly addNameRange     '0.7.8',
+34 silly addNameRange     '0.7.10',
+34 silly addNameRange     '0.9.0',
+34 silly addNameRange     '0.9.1',
+34 silly addNameRange     '0.9.2',
+34 silly addNameRange     '0.9.3',
+34 silly addNameRange     '0.9.5',
+34 silly addNameRange     '0.9.6',
+34 silly addNameRange     '0.9.7',
+34 silly addNameRange     '0.9.10',
+34 silly addNameRange     '0.9.11',
+34 silly addNameRange     '0.9.12',
+34 silly addNameRange     '0.9.14',
+34 silly addNameRange     '0.9.16',
+34 silly addNameRange     '0.9.17',
+34 silly addNameRange     '1.0.0',
+34 silly addNameRange     '1.0.1',
+34 silly addNameRange     '1.0.2',
+34 silly addNameRange     '1.0.2-rc',
+34 silly addNameRange     '0.6.10-a',
+34 silly addNameRange     '1.0.2-rc3',
+34 silly addNameRange     '1.0.2-rc4',
+34 silly addNameRange     '1.0.3',
+34 silly addNameRange     '1.0.4',
+34 silly addNameRange     '1.0.5',
+34 silly addNameRange     '1.0.6',
+34 silly addNameRange     '1.0.7',
+34 silly addNameRange     '1.0.8',
+34 silly addNameRange     '1.0.9',
+34 silly addNameRange     '1.0.10',
+34 silly addNameRange     '1.0.11',
+34 silly addNameRange     '1.0.12',
+34 silly addNameRange     '1.0.13',
+34 silly addNameRange     '1.0.14',
+34 silly addNameRange     '1.0.15',
+34 silly addNameRange     '1.0.16',
+34 silly addNameRange     '1.0.17-rc1',
+34 silly addNameRange     '1.0.17-rc2',
+34 silly addNameRange     '1.0.17',
+34 silly addNameRange     '1.0.18',
+34 silly addNameRange     '1.0.19',
+34 silly addNameRange     '1.0.20',
+34 silly addNameRange     '1.1.0-alpha',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.1.1',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.2.1',
+34 silly addNameRange     '1.3.0-0',
+34 silly addNameRange     '1.3.0-1',
+34 silly addNameRange     '1.3.0-2',
+34 silly addNameRange     '1.3.0-3',
+34 silly addNameRange     '1.3.0-4',
+34 silly addNameRange     '1.3.0-5',
+34 silly addNameRange     '1.3.0-6',
+34 silly addNameRange     '1.3.0-7',
+34 silly addNameRange     '1.3.0',
+34 silly addNameRange     '1.3.1',
+34 silly addNameRange     '1.3.2',
+34 silly addNameRange     '1.3.3',
+34 silly addNameRange     '1.3.5',
+34 silly addNameRange     '1.3.6',
+34 silly addNameRange     '1.3.7',
+34 silly addNameRange     '1.3.8',
+34 silly addNameRange     '1.4.0',
+34 silly addNameRange     '1.4.1',
+34 silly addNameRange     '1.5.0-alpha1',
+34 silly addNameRange     '1.5.0-alpha2',
+34 silly addNameRange     '1.5.0-alpha3',
+34 silly addNameRange     '1.5.0-alpha4',
+34 silly addNameRange     '1.4.2',
+34 silly addNameRange     '1.5.0',
+34 silly addNameRange     '1.5.1',
+34 silly addNameRange     '1.6.0',
+34 silly addNameRange     '1.6.1',
+34 silly addNameRange     '1.7.0',
+34 silly addNameRange     '1.7.1',
+34 silly addNameRange     '1.7.2',
+34 silly addNameRange     '1.7.3',
+34 silly addNameRange     '1.8.0',
+34 silly addNameRange     '1.8.1',
+34 silly addNameRange     '1.9.0',
+34 silly addNameRange     '1.9.1',
+34 silly addNameRange     '1.9.2',
+34 silly addNameRange     '1.10.0',
+34 silly addNameRange     '1.10.1',
+34 silly addNameRange     '1.10.2',
+34 silly addNameRange     '1.11.0',
+34 silly addNameRange     '1.11.1',
+34 silly addNameRange     '1.12.0',
+34 silly addNameRange     '1.12.1' ] ]
+35 verbose addNamed [ 'nodemon', '1.12.1' ]
+36 verbose addNamed [ '1.12.1', '1.12.1' ]
+37 silly lockFile dd229107-nodemon-1-12-1 nodemon@1.12.1
+38 verbose lock nodemon@1.12.1 /home/josuex/.npm/dd229107-nodemon-1-12-1.lock
+39 verbose read json /home/josuex/.npm/nodemon/1.12.1/package/package.json
+40 silly lockFile dd229107-nodemon-1-12-1 nodemon@1.12.1
+41 silly lockFile 4f5e51c6-nodemon nodemon@
+42 silly resolved [ { name: 'nodemon',
+42 silly resolved     homepage: 'http://nodemon.io',
+42 silly resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+42 silly resolved     bin: { nodemon: './bin/nodemon.js' },
+42 silly resolved     engines: { node: '>=0.8' },
+42 silly resolved     repository: { type: 'git', url: 'git+https://github.com/remy/nodemon.git' },
+42 silly resolved     description: 'Simple monitor script for use during development of a node.js app.',
+42 silly resolved     keywords:
+42 silly resolved      [ 'monitor',
+42 silly resolved        'development',
+42 silly resolved        'restart',
+42 silly resolved        'autoload',
+42 silly resolved        'reload',
+42 silly resolved        'terminal' ],
+42 silly resolved     license: 'MIT',
+42 silly resolved     main: './lib/nodemon',
+42 silly resolved     scripts:
+42 silly resolved      { commitmsg: 'commitlint -e',
+42 silly resolved        coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+42 silly resolved        lint: 'jscs lib/**/*.js -v',
+42 silly resolved        ':spec': 'mocha --timeout 30000 --ui bdd test/**/*.test.js',
+42 silly resolved        test: 'npm run lint && npm run spec',
+42 silly resolved        spec: 'for FILE in test/**/*.test.js; do echo $FILE; ./node_modules/.bin/mocha --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+42 silly resolved        web: 'node web',
+42 silly resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post' },
+42 silly resolved     devDependencies:
+42 silly resolved      { '@commitlint/cli': '^3.1.3',
+42 silly resolved        '@commitlint/config-angular': '^3.1.1',
+42 silly resolved        async: '1.4.2',
+42 silly resolved        'coffee-script': '~1.7.1',
+42 silly resolved        connect: '~2.19.1',
+42 silly resolved        husky: '^0.14.3',
+42 silly resolved        istanbul: '~0.2.10',
+42 silly resolved        jscs: '2.1.1',
+42 silly resolved        mocha: '2.3.3',
+42 silly resolved        'semantic-release': '4.3.5',
+42 silly resolved        should: '~4.0.0' },
+42 silly resolved     dependencies:
+42 silly resolved      { chokidar: '^1.7.0',
+42 silly resolved        debug: '^2.6.8',
+42 silly resolved        'es6-promise': '^3.3.1',
+42 silly resolved        'ignore-by-default': '^1.0.1',
+42 silly resolved        'lodash.defaults': '^3.1.2',
+42 silly resolved        minimatch: '^3.0.4',
+42 silly resolved        'ps-tree': '^1.1.0',
+42 silly resolved        touch: '^3.1.0',
+42 silly resolved        undefsafe: '0.0.3',
+42 silly resolved        'update-notifier': '^2.2.0' },
+42 silly resolved     version: '1.12.1',
+42 silly resolved     gitHead: '469fa80aa748041faf97b583728060c1bd482a8e',
+42 silly resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+42 silly resolved     _id: 'nodemon@1.12.1',
+42 silly resolved     _shasum: '996a56dc49d9f16bbf1b78a4de08f13634b3878d',
+42 silly resolved     _from: 'nodemon',
+42 silly resolved     _npmVersion: '2.15.12',
+42 silly resolved     _nodeVersion: '8.5.0',
+42 silly resolved     _npmUser: { name: 'remy', email: 'remy@leftlogic.com' },
+42 silly resolved     dist:
+42 silly resolved      { shasum: '996a56dc49d9f16bbf1b78a4de08f13634b3878d',
+42 silly resolved        tarball: 'https://registry.npmjs.org/nodemon/-/nodemon-1.12.1.tgz' },
+42 silly resolved     maintainers: [ [Object] ],
+42 silly resolved     _npmOperationalInternal:
+42 silly resolved      { host: 's3://npm-registry-packages',
+42 silly resolved        tmp: 'tmp/nodemon-1.12.1.tgz_1505457797031_0.8776067900471389' },
+42 silly resolved     directories: {},
+42 silly resolved     _resolved: 'https://registry.npmjs.org/nodemon/-/nodemon-1.12.1.tgz',
+42 silly resolved     readme: 'ERROR: No README data found!' } ]
+43 info install nodemon@1.12.1 into /home/josuex/Documenti/TEC2/TodoApp1
+44 info installOne nodemon@1.12.1
+45 verbose from cache /home/josuex/.npm/nodemon/1.12.1/package/package.json
+46 info /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon unbuild
+47 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon/package.json
+48 verbose tar unpack /home/josuex/.npm/nodemon/1.12.1/package.tgz
+49 silly lockFile cce92a04-C2-TodoApp1-node-modules-nodemon /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon
+50 verbose lock /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon /home/josuex/.npm/cce92a04-C2-TodoApp1-node-modules-nodemon.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry .npmignore
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry commitlint.config.js
+56 silly gunzTarPerm extractEntry bin/nodemon.js
+57 silly gunzTarPerm extractEntry .travis.yml
+58 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+59 silly gunzTarPerm extractEntry CONTRIBUTING.md
+60 silly gunzTarPerm extractEntry Dockerfile
+61 silly gunzTarPerm extractEntry .jshintrc
+62 silly gunzTarPerm extractEntry .jscsrc
+63 silly gunzTarPerm extractEntry doc/arch.md
+64 silly gunzTarPerm extractEntry doc/cli/authors.txt
+65 silly gunzTarPerm extractEntry doc/cli/config.txt
+66 silly gunzTarPerm extractEntry doc/cli/help.txt
+67 silly gunzTarPerm extractEntry doc/cli/logo.txt
+68 silly gunzTarPerm extractEntry doc/cli/topics.txt
+69 silly gunzTarPerm extractEntry doc/cli/usage.txt
+70 silly gunzTarPerm extractEntry doc/cli/whoami.txt
+71 silly gunzTarPerm extractEntry doc/events.md
+72 silly gunzTarPerm extractEntry doc/option-parsing-logic.md
+73 silly gunzTarPerm extractEntry doc/requireable.md
+74 silly gunzTarPerm extractEntry doc/rules.md
+75 silly gunzTarPerm extractEntry doc/sample-nodemon.md
+76 silly gunzTarPerm extractEntry docs/index.js
+77 silly gunzTarPerm extractEntry docs/index.html
+78 silly gunzTarPerm extractEntry docs/nodemon.svg
+79 silly gunzTarPerm extractEntry faq.md
+80 silly gunzTarPerm extractEntry lib/index.js
+81 silly gunzTarPerm extractEntry lib/nodemon.js
+82 silly gunzTarPerm extractEntry lib/spawn.js
+83 silly gunzTarPerm extractEntry lib/version.js
+84 silly gunzTarPerm extractEntry lib/cli/index.js
+85 silly gunzTarPerm extractEntry lib/cli/parse.js
+86 silly gunzTarPerm extractEntry lib/config/command.js
+87 silly gunzTarPerm extractEntry lib/config/defaults.js
+88 silly gunzTarPerm extractEntry lib/config/exec.js
+89 silly gunzTarPerm extractEntry lib/config/index.js
+90 silly gunzTarPerm extractEntry lib/config/load.js
+91 silly gunzTarPerm extractEntry lib/help/index.js
+92 silly gunzTarPerm extractEntry lib/monitor/index.js
+93 silly gunzTarPerm extractEntry lib/monitor/match.js
+94 silly gunzTarPerm extractEntry lib/monitor/run.js
+95 silly gunzTarPerm extractEntry lib/monitor/watch.js
+96 silly gunzTarPerm extractEntry lib/rules/add.js
+97 silly gunzTarPerm extractEntry lib/rules/index.js
+98 silly gunzTarPerm extractEntry lib/rules/parse.js
+99 silly gunzTarPerm extractEntry lib/utils/bus.js
+100 silly gunzTarPerm extractEntry lib/utils/clone.js
+101 silly gunzTarPerm extractEntry lib/utils/colour.js
+102 silly gunzTarPerm extractEntry lib/utils/index.js
+103 silly gunzTarPerm extractEntry lib/utils/log.js
+104 silly gunzTarPerm extractEntry lib/utils/merge.js
+105 silly gunzTarPerm extractEntry package-lock.json
+106 silly gunzTarPerm extractEntry travis_after_all.py
+107 verbose read json /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon/package.json
+108 silly lockFile cce92a04-C2-TodoApp1-node-modules-nodemon /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon
+109 info preinstall nodemon@1.12.1
+110 verbose from cache /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon/package.json
+111 verbose readDependencies using package.json deps
+112 verbose from cache /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon/package.json
+113 verbose readDependencies using package.json deps
+114 verbose cache add [ 'chokidar@^1.7.0', null ]
+115 silly cache add name=undefined spec="chokidar@^1.7.0" args=["chokidar@^1.7.0",null]
+116 verbose parsed url { pathname: 'chokidar@^1.7.0',
+116 verbose parsed url   path: 'chokidar@^1.7.0',
+116 verbose parsed url   href: 'chokidar@^1.7.0' }
+117 silly cache add name="chokidar" spec="^1.7.0" args=["chokidar","^1.7.0"]
+118 verbose parsed url { pathname: '^1.7.0', path: '^1.7.0', href: '^1.7.0' }
+119 verbose addNamed [ 'chokidar', '^1.7.0' ]
+120 verbose addNamed [ null, null ]
+121 silly lockFile 442979f5-chokidar-1-7-0 chokidar@^1.7.0
+122 verbose lock chokidar@^1.7.0 /home/josuex/.npm/442979f5-chokidar-1-7-0.lock
+123 verbose cache add [ 'debug@^2.6.8', null ]
+124 silly cache add name=undefined spec="debug@^2.6.8" args=["debug@^2.6.8",null]
+125 verbose parsed url { pathname: 'debug@^2.6.8',
+125 verbose parsed url   path: 'debug@^2.6.8',
+125 verbose parsed url   href: 'debug@^2.6.8' }
+126 silly cache add name="debug" spec="^2.6.8" args=["debug","^2.6.8"]
+127 verbose parsed url { pathname: '^2.6.8', path: '^2.6.8', href: '^2.6.8' }
+128 verbose addNamed [ 'debug', '^2.6.8' ]
+129 verbose addNamed [ null, null ]
+130 silly lockFile 6030e63d-debug-2-6-8 debug@^2.6.8
+131 verbose lock debug@^2.6.8 /home/josuex/.npm/6030e63d-debug-2-6-8.lock
+132 verbose cache add [ 'es6-promise@^3.3.1', null ]
+133 silly cache add name=undefined spec="es6-promise@^3.3.1" args=["es6-promise@^3.3.1",null]
+134 verbose parsed url { pathname: 'es6-promise@^3.3.1',
+134 verbose parsed url   path: 'es6-promise@^3.3.1',
+134 verbose parsed url   href: 'es6-promise@^3.3.1' }
+135 silly cache add name="es6-promise" spec="^3.3.1" args=["es6-promise","^3.3.1"]
+136 verbose parsed url { pathname: '^3.3.1', path: '^3.3.1', href: '^3.3.1' }
+137 verbose addNamed [ 'es6-promise', '^3.3.1' ]
+138 verbose addNamed [ null, null ]
+139 silly lockFile 7c143b3c-es6-promise-3-3-1 es6-promise@^3.3.1
+140 verbose lock es6-promise@^3.3.1 /home/josuex/.npm/7c143b3c-es6-promise-3-3-1.lock
+141 info addNameTag [ 'chokidar', '^1.7.0' ]
+142 info addNameTag [ 'debug', '^2.6.8' ]
+143 info addNameTag [ 'es6-promise', '^3.3.1' ]
+144 verbose url raw chokidar
+145 verbose url resolving [ 'https://registry.npmjs.org/', './chokidar' ]
+146 verbose url resolved https://registry.npmjs.org/chokidar
+147 info trying registry request attempt 1 at 17:09:07
+148 verbose etag "59d6129d-1c583"
+149 http GET https://registry.npmjs.org/chokidar
+150 verbose url raw debug
+151 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+152 verbose url resolved https://registry.npmjs.org/debug
+153 info trying registry request attempt 1 at 17:09:07
+154 verbose etag "59de9b13-18e68"
+155 http GET https://registry.npmjs.org/debug
+156 verbose url raw es6-promise
+157 verbose url resolving [ 'https://registry.npmjs.org/', './es6-promise' ]
+158 verbose url resolved https://registry.npmjs.org/es6-promise
+159 info trying registry request attempt 1 at 17:09:07
+160 verbose etag "59b8aad1-e2c0"
+161 http GET https://registry.npmjs.org/es6-promise
+162 verbose cache add [ 'ignore-by-default@^1.0.1', null ]
+163 silly cache add name=undefined spec="ignore-by-default@^1.0.1" args=["ignore-by-default@^1.0.1",null]
+164 verbose parsed url { pathname: 'ignore-by-default@^1.0.1',
+164 verbose parsed url   path: 'ignore-by-default@^1.0.1',
+164 verbose parsed url   href: 'ignore-by-default@^1.0.1' }
+165 silly cache add name="ignore-by-default" spec="^1.0.1" args=["ignore-by-default","^1.0.1"]
+166 verbose parsed url { pathname: '^1.0.1', path: '^1.0.1', href: '^1.0.1' }
+167 verbose addNamed [ 'ignore-by-default', '^1.0.1' ]
+168 verbose addNamed [ null, null ]
+169 silly lockFile 2835a20a-ignore-by-default-1-0-1 ignore-by-default@^1.0.1
+170 verbose lock ignore-by-default@^1.0.1 /home/josuex/.npm/2835a20a-ignore-by-default-1-0-1.lock
+171 verbose cache add [ 'lodash.defaults@^3.1.2', null ]
+172 silly cache add name=undefined spec="lodash.defaults@^3.1.2" args=["lodash.defaults@^3.1.2",null]
+173 verbose parsed url { pathname: 'lodash.defaults@^3.1.2',
+173 verbose parsed url   path: 'lodash.defaults@^3.1.2',
+173 verbose parsed url   href: 'lodash.defaults@^3.1.2' }
+174 silly cache add name="lodash.defaults" spec="^3.1.2" args=["lodash.defaults","^3.1.2"]
+175 verbose parsed url { pathname: '^3.1.2', path: '^3.1.2', href: '^3.1.2' }
+176 verbose addNamed [ 'lodash.defaults', '^3.1.2' ]
+177 verbose addNamed [ null, null ]
+178 silly lockFile 28a2b61b-lodash-defaults-3-1-2 lodash.defaults@^3.1.2
+179 verbose lock lodash.defaults@^3.1.2 /home/josuex/.npm/28a2b61b-lodash-defaults-3-1-2.lock
+180 verbose cache add [ 'minimatch@^3.0.4', null ]
+181 silly cache add name=undefined spec="minimatch@^3.0.4" args=["minimatch@^3.0.4",null]
+182 verbose parsed url { pathname: 'minimatch@^3.0.4',
+182 verbose parsed url   path: 'minimatch@^3.0.4',
+182 verbose parsed url   href: 'minimatch@^3.0.4' }
+183 silly cache add name="minimatch" spec="^3.0.4" args=["minimatch","^3.0.4"]
+184 verbose parsed url { pathname: '^3.0.4', path: '^3.0.4', href: '^3.0.4' }
+185 verbose addNamed [ 'minimatch', '^3.0.4' ]
+186 verbose addNamed [ null, null ]
+187 silly lockFile 69284b07-minimatch-3-0-4 minimatch@^3.0.4
+188 verbose lock minimatch@^3.0.4 /home/josuex/.npm/69284b07-minimatch-3-0-4.lock
+189 verbose cache add [ 'ps-tree@^1.1.0', null ]
+190 silly cache add name=undefined spec="ps-tree@^1.1.0" args=["ps-tree@^1.1.0",null]
+191 verbose parsed url { pathname: 'ps-tree@^1.1.0',
+191 verbose parsed url   path: 'ps-tree@^1.1.0',
+191 verbose parsed url   href: 'ps-tree@^1.1.0' }
+192 silly cache add name="ps-tree" spec="^1.1.0" args=["ps-tree","^1.1.0"]
+193 verbose parsed url { pathname: '^1.1.0', path: '^1.1.0', href: '^1.1.0' }
+194 verbose addNamed [ 'ps-tree', '^1.1.0' ]
+195 verbose addNamed [ null, null ]
+196 silly lockFile bfc468d9-ps-tree-1-1-0 ps-tree@^1.1.0
+197 verbose lock ps-tree@^1.1.0 /home/josuex/.npm/bfc468d9-ps-tree-1-1-0.lock
+198 verbose cache add [ 'touch@^3.1.0', null ]
+199 silly cache add name=undefined spec="touch@^3.1.0" args=["touch@^3.1.0",null]
+200 verbose parsed url { pathname: 'touch@^3.1.0',
+200 verbose parsed url   path: 'touch@^3.1.0',
+200 verbose parsed url   href: 'touch@^3.1.0' }
+201 silly cache add name="touch" spec="^3.1.0" args=["touch","^3.1.0"]
+202 verbose parsed url { pathname: '^3.1.0', path: '^3.1.0', href: '^3.1.0' }
+203 verbose addNamed [ 'touch', '^3.1.0' ]
+204 verbose addNamed [ null, null ]
+205 silly lockFile caa93724-touch-3-1-0 touch@^3.1.0
+206 verbose lock touch@^3.1.0 /home/josuex/.npm/caa93724-touch-3-1-0.lock
+207 verbose cache add [ 'undefsafe@0.0.3', null ]
+208 silly cache add name=undefined spec="undefsafe@0.0.3" args=["undefsafe@0.0.3",null]
+209 verbose parsed url { pathname: 'undefsafe@0.0.3',
+209 verbose parsed url   path: 'undefsafe@0.0.3',
+209 verbose parsed url   href: 'undefsafe@0.0.3' }
+210 silly cache add name="undefsafe" spec="0.0.3" args=["undefsafe","0.0.3"]
+211 verbose parsed url { pathname: '0.0.3', path: '0.0.3', href: '0.0.3' }
+212 verbose addNamed [ 'undefsafe', '0.0.3' ]
+213 verbose addNamed [ '0.0.3', '0.0.3' ]
+214 silly lockFile 80ee6b50-undefsafe-0-0-3 undefsafe@0.0.3
+215 verbose lock undefsafe@0.0.3 /home/josuex/.npm/80ee6b50-undefsafe-0-0-3.lock
+216 verbose cache add [ 'update-notifier@^2.2.0', null ]
+217 silly cache add name=undefined spec="update-notifier@^2.2.0" args=["update-notifier@^2.2.0",null]
+218 verbose parsed url { pathname: 'update-notifier@^2.2.0',
+218 verbose parsed url   path: 'update-notifier@^2.2.0',
+218 verbose parsed url   href: 'update-notifier@^2.2.0' }
+219 silly cache add name="update-notifier" spec="^2.2.0" args=["update-notifier","^2.2.0"]
+220 verbose parsed url { pathname: '^2.2.0', path: '^2.2.0', href: '^2.2.0' }
+221 verbose addNamed [ 'update-notifier', '^2.2.0' ]
+222 verbose addNamed [ null, null ]
+223 silly lockFile b822c42a-update-notifier-2-2-0 update-notifier@^2.2.0
+224 verbose lock update-notifier@^2.2.0 /home/josuex/.npm/b822c42a-update-notifier-2-2-0.lock
+225 info addNameTag [ 'ignore-by-default', '^1.0.1' ]
+226 info addNameTag [ 'lodash.defaults', '^3.1.2' ]
+227 info addNameTag [ 'minimatch', '^3.0.4' ]
+228 info addNameTag [ 'ps-tree', '^1.1.0' ]
+229 info addNameTag [ 'touch', '^3.1.0' ]
+230 info addNameTag [ 'update-notifier', '^2.2.0' ]
+231 verbose url raw ignore-by-default
+232 verbose url resolving [ 'https://registry.npmjs.org/', './ignore-by-default' ]
+233 verbose url resolved https://registry.npmjs.org/ignore-by-default
+234 info trying registry request attempt 1 at 17:09:07
+235 verbose etag "56d065cf-107d"
+236 http GET https://registry.npmjs.org/ignore-by-default
+237 verbose url raw lodash.defaults
+238 verbose url resolving [ 'https://registry.npmjs.org/', './lodash.defaults' ]
+239 verbose url resolved https://registry.npmjs.org/lodash.defaults
+240 info trying registry request attempt 1 at 17:09:07
+241 verbose etag "58b06465-65a7"
+242 http GET https://registry.npmjs.org/lodash.defaults
+243 verbose url raw minimatch
+244 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+245 verbose url resolved https://registry.npmjs.org/minimatch
+246 info trying registry request attempt 1 at 17:09:07
+247 verbose etag "59bcb588-d203"
+248 http GET https://registry.npmjs.org/minimatch
+249 verbose url raw ps-tree
+250 verbose url resolving [ 'https://registry.npmjs.org/', './ps-tree' ]
+251 verbose url resolved https://registry.npmjs.org/ps-tree
+252 info trying registry request attempt 1 at 17:09:07
+253 verbose etag "58ee9c6c-316d"
+254 http GET https://registry.npmjs.org/ps-tree
+255 verbose url raw touch
+256 verbose url resolving [ 'https://registry.npmjs.org/', './touch' ]
+257 verbose url resolved https://registry.npmjs.org/touch
+258 info trying registry request attempt 1 at 17:09:07
+259 verbose etag "59b58206-32e3"
+260 http GET https://registry.npmjs.org/touch
+261 verbose url raw undefsafe/0.0.3
+262 verbose url resolving [ 'https://registry.npmjs.org/', './undefsafe/0.0.3' ]
+263 verbose url resolved https://registry.npmjs.org/undefsafe/0.0.3
+264 info trying registry request attempt 1 at 17:09:07
+265 verbose etag "7FSJML3JO6T0CI6V6GGPGY7KE"
+266 http GET https://registry.npmjs.org/undefsafe/0.0.3
+267 verbose url raw update-notifier
+268 verbose url resolving [ 'https://registry.npmjs.org/', './update-notifier' ]
+269 verbose url resolved https://registry.npmjs.org/update-notifier
+270 info trying registry request attempt 1 at 17:09:07
+271 verbose etag "59db443e-e8e4"
+272 http GET https://registry.npmjs.org/update-notifier
+273 http 304 https://registry.npmjs.org/chokidar
+274 silly registry.get cb [ 304,
+274 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+274 silly registry.get     via: '1.1 varnish',
+274 silly registry.get     'cache-control': 'max-age=300',
+274 silly registry.get     etag: '"59d6129d-1c583"',
+274 silly registry.get     age: '117',
+274 silly registry.get     connection: 'keep-alive',
+274 silly registry.get     'x-served-by': 'cache-lax8624-LAX',
+274 silly registry.get     'x-cache': 'HIT',
+274 silly registry.get     'x-cache-hits': '1',
+274 silly registry.get     'x-timer': 'S1507784932.545138,VS0,VE1',
+274 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+275 verbose etag chokidar from cache
+276 http 304 https://registry.npmjs.org/debug
+277 silly registry.get cb [ 304,
+277 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+277 silly registry.get     via: '1.1 varnish',
+277 silly registry.get     'cache-control': 'max-age=300',
+277 silly registry.get     etag: '"59de9b13-18e68"',
+277 silly registry.get     age: '117',
+277 silly registry.get     connection: 'keep-alive',
+277 silly registry.get     'x-served-by': 'cache-lax8626-LAX',
+277 silly registry.get     'x-cache': 'HIT',
+277 silly registry.get     'x-cache-hits': '2',
+277 silly registry.get     'x-timer': 'S1507784932.548980,VS0,VE0',
+277 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+278 verbose etag debug from cache
+279 http 304 https://registry.npmjs.org/es6-promise
+280 silly registry.get cb [ 304,
+280 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+280 silly registry.get     via: '1.1 varnish',
+280 silly registry.get     'cache-control': 'max-age=300',
+280 silly registry.get     etag: '"59b8aad1-e2c0"',
+280 silly registry.get     age: '117',
+280 silly registry.get     connection: 'keep-alive',
+280 silly registry.get     'x-served-by': 'cache-lax8622-LAX',
+280 silly registry.get     'x-cache': 'HIT',
+280 silly registry.get     'x-cache-hits': '1',
+280 silly registry.get     'x-timer': 'S1507784932.552900,VS0,VE1',
+280 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+281 verbose etag es6-promise from cache
+282 silly lockFile 442979f5-chokidar-1-7-0 chokidar@^1.7.0
+283 silly lockFile 6030e63d-debug-2-6-8 debug@^2.6.8
+284 verbose about to build /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon
+285 info /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon unbuild
+286 verbose from cache /home/josuex/Documenti/TEC2/TodoApp1/node_modules/nodemon/package.json
+287 info preuninstall nodemon@1.12.1
+288 info uninstall nodemon@1.12.1
+289 silly lockFile 7c143b3c-es6-promise-3-3-1 es6-promise@^3.3.1
+290 verbose true,/home/josuex/Documenti/TEC2/TodoApp1/node_modules,/home/josuex/Documenti/TEC2/TodoApp1/node_modules unbuild nodemon@1.12.1
+291 verbose /home/josuex/Documenti/TEC2/TodoApp1/node_modules/.bin,[object Object] binRoot
+292 info postuninstall nodemon@1.12.1
+293 http 304 https://registry.npmjs.org/ps-tree
+294 silly registry.get cb [ 304,
+294 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+294 silly registry.get     via: '1.1 varnish',
+294 silly registry.get     'cache-control': 'max-age=300',
+294 silly registry.get     etag: '"58ee9c6c-316d"',
+294 silly registry.get     age: '117',
+294 silly registry.get     connection: 'keep-alive',
+294 silly registry.get     'x-served-by': 'cache-lax8626-LAX',
+294 silly registry.get     'x-cache': 'HIT',
+294 silly registry.get     'x-cache-hits': '2',
+294 silly registry.get     'x-timer': 'S1507784932.598867,VS0,VE0',
+294 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+295 verbose etag ps-tree from cache
+296 http 304 https://registry.npmjs.org/minimatch
+297 silly registry.get cb [ 304,
+297 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+297 silly registry.get     via: '1.1 varnish',
+297 silly registry.get     'cache-control': 'max-age=300',
+297 silly registry.get     etag: '"59bcb588-d203"',
+297 silly registry.get     age: '117',
+297 silly registry.get     connection: 'keep-alive',
+297 silly registry.get     'x-served-by': 'cache-lax8624-LAX',
+297 silly registry.get     'x-cache': 'HIT',
+297 silly registry.get     'x-cache-hits': '1',
+297 silly registry.get     'x-timer': 'S1507784932.594362,VS0,VE1',
+297 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+298 verbose etag minimatch from cache
+299 silly lockFile bfc468d9-ps-tree-1-1-0 ps-tree@^1.1.0
+300 silly lockFile 69284b07-minimatch-3-0-4 minimatch@^3.0.4
+301 http 304 https://registry.npmjs.org/lodash.defaults
+302 silly registry.get cb [ 304,
+302 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+302 silly registry.get     via: '1.1 varnish',
+302 silly registry.get     'cache-control': 'max-age=300',
+302 silly registry.get     etag: '"58b06465-65a7"',
+302 silly registry.get     age: '117',
+302 silly registry.get     connection: 'keep-alive',
+302 silly registry.get     'x-served-by': 'cache-lax8642-LAX',
+302 silly registry.get     'x-cache': 'HIT',
+302 silly registry.get     'x-cache-hits': '1',
+302 silly registry.get     'x-timer': 'S1507784932.630135,VS0,VE1',
+302 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+303 verbose etag lodash.defaults from cache
+304 http 304 https://registry.npmjs.org/ignore-by-default
+305 silly registry.get cb [ 304,
+305 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+305 silly registry.get     via: '1.1 varnish',
+305 silly registry.get     'cache-control': 'max-age=300',
+305 silly registry.get     etag: '"56d065cf-107d"',
+305 silly registry.get     age: '117',
+305 silly registry.get     connection: 'keep-alive',
+305 silly registry.get     'x-served-by': 'cache-lax8625-LAX',
+305 silly registry.get     'x-cache': 'HIT',
+305 silly registry.get     'x-cache-hits': '1',
+305 silly registry.get     'x-timer': 'S1507784932.629674,VS0,VE1',
+305 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+306 verbose etag ignore-by-default from cache
+307 http 304 https://registry.npmjs.org/touch
+308 silly registry.get cb [ 304,
+308 silly registry.get   { date: 'Thu, 12 Oct 2017 05:08:51 GMT',
+308 silly registry.get     via: '1.1 varnish',
+308 silly registry.get     'cache-control': 'max-age=300',
+308 silly registry.get     etag: '"59b58206-32e3"',
+308 silly registry.get     age: '117',
+308 silly registry.get     connection: 'keep-alive',
+308 silly registry.get     'x-served-by': 'cache-lax8622-LAX',
+308 silly registry.get     'x-cache': 'HIT',
+308 silly registry.get     'x-cache-hits': '1',
+308 silly registry.get     'x-timer': 'S1507784932.628266,VS0,VE1',
+308 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+309 verbose etag touch from cache
+310 error Error: No compatible version found: chokidar@'^1.7.0'
+310 error Valid install targets:
+310 error ["1.0.0-rc1","1.0.0-rc1.1","1.0.0-rc2","0.1.1","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.3.0","0.4.0","0.5.0","0.5.1","0.5.2","0.5.3","0.6.0","0.6.1","0.6.2","0.6.3","0.7.0","0.7.1","0.8.0","0.8.1","0.8.2","0.8.3","0.8.4","0.9.0","0.10.0","0.10.1","0.10.2","0.10.3","0.10.4","0.10.5","0.10.6","0.10.7","0.10.8","0.10.9","0.11.0","0.11.1","0.12.0","0.12.1","0.12.2","0.12.3","0.12.4","0.12.5","0.12.6","1.0.0-rc1","1.0.0-rc1.1","1.0.0-rc2","1.0.0-rc3","1.0.0-rc4","1.0.0-rc5","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.0.5","1.0.6","1.1.0","1.2.0","1.3.0","1.4.0","1.4.1","1.4.2","1.4.3","1.5.0","1.5.1","1.5.2","1.6.0","1.6.1","1.7.0"]
+310 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:563:10)
+310 error     at /usr/local/lib/node_modules/npm/lib/cache.js:478:10
+310 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+310 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:218:7
+310 error     at Object.oncomplete (fs.js:297:15)
+311 error If you need help, you may report this log at:
+311 error     <http://github.com/isaacs/npm/issues>
+311 error or email it to:
+311 error     <npm-@googlegroups.com>
+312 error System Linux 4.10.0-32-generic
+313 error command "/usr/local/bin/node" "/usr/local/bin/npm" "i" "nodemon" "-D"
+314 error cwd /home/josuex/Documenti/TEC2/TodoApp1
+315 error node -v v0.8.15
+316 error npm -v 1.1.66
+317 verbose exit [ 1, true ]
